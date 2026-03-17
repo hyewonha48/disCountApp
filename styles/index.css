@@ -1,0 +1,48 @@
+#app {
+    background-color:#ddd;
+    border-radius:20px;
+    max-width: 420px;
+    min-width: 320px; margin:10px auto;
+    text-align: center; padding:40px 0;
+    height:90vh;
+}
+#app header {}
+#app header p {}
+#app header h1 {width:100px; margin:20px auto;}
+#app header h1 img {width:100%;}
+#app main {
+    background-color:#eee;
+    margin:0 25px; padding:30px;
+}
+#app main h2 {font-size:0.85rem; line-height:2; padding-top:20px;}
+#app main p {line-height:2;}
+#app main p #money {
+    background-color:#ffd153;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    text-align:center;
+}
+#app main p #result {
+    background-color:#111;
+    color:#fff;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    margin:5px 0 0;
+}
+#app main .discount {margin:10px 0 0;}
+#app main .discount li {
+    line-height:1.7; 
+    border-bottom:1px dotted #ddd;
+}
+#app main .reset {
+    line-height:2;
+    background-color:#999;
+    color:#fff;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    display: block;
+    text-align: center; margin: 0 auto;
+    }
